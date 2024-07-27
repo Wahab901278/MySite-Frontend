@@ -1,0 +1,131 @@
+.contact-page {
+  background-color: #dccdb8;
+  height: 120vh;
+}
+.contact-h {
+  text-align: center;
+  padding-top: 80px;
+  font-family: "teacher", sans-serif;
+  font-weight: 1000;
+  font-size: 30px;
+  margin-left: -20px;
+}
+.contact-h::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 15px;
+  background-color: blue;
+  margin-right: 10px;
+}
+
+.email-card {
+  background-color: white;
+  height: 76vh;
+  width: 100vh;
+  justify-content: center;
+  margin-bottom: 30vh;
+  font-family: "teacher", sans-serif;
+  margin-top: 100px;
+}
+.email-card {
+  box-shadow: 0px 0px 30px 10px rgba(5, 5, 5, 0.15);
+}
+
+.email-card {
+  width: 500px;
+  padding: 35px;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px 10px rgba(5, 5, 5, 0.15);
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group.row .column {
+  width: 48%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.footer-contact {
+  background-color: white;
+  font-family: "teacher", sans-serif;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.footer-content-u-contact {
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.copyright-info-contact {
+  margin-left: 20px;
+}
+.write-u-contact {
+  margin-left: 15%;
+}
+.call-u-contact {
+  margin-left: 40%;
+}
+.follow-u-contact {
+  margin-left: 16.5%;
+}
+.write-l-contact {
+  margin-left: 2px;
+}
+.call-l-contact {
+  margin-left: 50%;
+}
+.social-media-icons-l-contact {
+  display: flex;
+  justify-content: right;
+  margin-right: 84px;
+}
+.footer-content-l-contact {
+  margin-top: 10px;
+}
