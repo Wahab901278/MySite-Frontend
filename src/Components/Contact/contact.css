@@ -129,3 +129,80 @@ button:hover {
 .footer-content-l-contact {
   margin-top: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  /* ... (previous responsive styles) ... */
+
+  .footer-content-u-contact,
+  .footer-content-l-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .write-u-contact,
+  .call-u-contact,
+  .follow-u-contact,
+  .write-l-contact,
+  .call-l-contact {
+    margin: 10px 0;
+    text-align: center;
+    width: 100%; /* Ensure full width */
+  }
+
+  .social-media-icons-l-contact {
+    justify-content: center;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+}
+
+/* New styles for medium-small screens */
+@media screen and (max-width: 600px) and (min-width: 481px) {
+  .footer-contact {
+    margin-top: 100px;
+  }
+  .contact-page {
+    height: 180vh;
+  }
+  .email-card {
+    height: 90vh;
+  }
+  .footer-content-u-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .write-u-contact,
+  .call-u-contact,
+  .follow-u-contact {
+    flex-basis: 30%;
+    margin: 10px 0;
+  }
+}
+
+/* Additional adjustments for very small screens */
+@media screen and (max-width: 480px) {
+  .contact-h {
+    font-size: 20px;
+  }
+
+  .email-card {
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .footer-content-u-contact {
+    flex-direction: column;
+  }
+
+  .write-u-contact,
+  .call-u-contact,
+  .follow-u-contact {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

@@ -1,34 +1,43 @@
 import React from "react";
-
+import Githubfooter from "./Githubfooter";
+import Car from "../img/car.png";
+import Car2 from "../img/car2.png";
 const carprice = () => {
   return (
     <div className="project-card">
       <div className="card-content">
         <div className="blue-bar"></div>
         <div className="left-content">
-          <p className="heading">Certificate Verification Portal</p>
-          <div className="description">
-            <p>
-              I developed a certificate verification portal using HTML, CSS, and
-              JavaScript. This portal ensures the authenticity of certificates
-              by utilizing a blockchain mechanism to securely store and verify
-              certificate data. The data is retrieved from a data.json file and
-              processed using a custom blockchain implementation.
-            </p>
-            Technologies:
-            <p></p>
-            <ul>
-              <li>HTML,CSS</li>
+          <div className="left-content-inner">
+            <p className="heading">Car Price Prediction</p>
+            <div className="description">
+              <p>
+                I completed a comprehensive data analysis project on car price
+                prediction. This project involved leveraging machine learning
+                algorithms to analyze various features and predict the prices of
+                cars accurately. This project starts from Data cleaning and goes
+                all the way from Feature Engineering, Visualizations,
+                Correlation Analysis and then Machine learning model development
+                and training and at the last, Model Evaluation.
+              </p>
+              Technologies:
               <p></p>
-              <li>JavaScript</li>
-              <p></p>
-              <li>JSON, CryptoJS(SHA256)</li>
-            </ul>
-            <Githubfooter />
+              <ul>
+                <li>Python</li>
+                <li>Numpy</li>
+                <li>Pandas</li>
+                <li>Matplotlib,Seaborn</li>
+                <li>Scikit-learn</li>
+              </ul>
+            </div>
           </div>
+          <Githubfooter />
         </div>
         <div className="right-content">
-          <img src={Block} alt="Block" className="Block-img" />
+          <div className="image-container">
+            <img src={Car} alt="Car-price-prediction" className="Cars-img" />
+            <img src={Car2} alt="Car-price-prediction2" className="Cars-img" />
+          </div>
         </div>
       </div>
     </div>

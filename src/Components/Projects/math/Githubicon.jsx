@@ -11,7 +11,7 @@ const Githubicon = () => {
         href="https://github.com/Wahab901278/Linear-Algebra"
         target="_blank"
         rel="noopener noreferrer"
-        className="icon-1-math"
+        className="icon-1"
       >
         <FontAwesomeIcon icon={faGithub} />
       </a>

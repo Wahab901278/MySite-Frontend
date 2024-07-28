@@ -3,6 +3,7 @@ import Innerbox from "./Innerbox";
 import Topnavbar from "./Topnavbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Lowerfooter from "./Lowerfooter";
+// import LFooter from "../Contact/Lfooterc";
 const Home = () => {
   return (
     <div className="home-page">

@@ -3,7 +3,7 @@ import Githubicon from "./Githubicon";
 import "../projects.css";
 const Githubfooter = () => {
   return (
-    <div className="g-f-maths flex">
+    <div className="github-footer flex">
       <p>Further details on:</p>
       <Githubicon />
     </div>

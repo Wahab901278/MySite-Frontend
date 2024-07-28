@@ -8,7 +8,7 @@ const Githubicon = () => {
   return (
     <div className="social-media-icons">
       <a
-        href="https://github.com/Wahab901278/linear-algebra"
+        href="https://github.com/Wahab901278/Epanet"
         target="_blank"
         rel="noopener noreferrer"
         className="icon-1"

@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "/home/wahab901278/Important-stuff/personal-website/personal-portfolio/src/index.css";
 
-const SocialMediaIcons = () => {
+const Githubicon = () => {
   return (
     <div className="social-media-icons">
       <a
-        href="https://github.com/Wahab901278/Blockchain-Certificate-Validation"
+        href="https://github.com/Wahab901278/Car-Price-Prediction"
         target="_blank"
         rel="noopener noreferrer"
         className="icon-1"
@@ -19,4 +19,4 @@ const SocialMediaIcons = () => {
   );
 };
 
-export default SocialMediaIcons;
+export default Githubicon;

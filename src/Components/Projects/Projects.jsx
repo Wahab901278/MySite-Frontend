@@ -6,6 +6,7 @@ import Bigdataproject from "./DataAnalysis/bigdataanalysis";
 import Epanetproject from "./Epanet/epanet";
 import Powerbiproject from "./Powerbi/powerbi";
 import Certiproject from "./Certificate/certi";
+import Carpriceprediction from "./Carpriceprediction/carprice";
 import "./projects.css";
 import Math from "./math/math";
 const Projects = () => {
@@ -17,6 +18,7 @@ const Projects = () => {
       <Epanetproject />
       <Certiproject />
       <Math />
+      <Carpriceprediction />
       <Powerbiproject />
       <Lfooterc />
     </div>
