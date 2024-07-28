@@ -22,11 +22,15 @@ const EmailCard = () => {
     e.preventDefault();
 
     axios
-      .post("http://wahab901278.pythonanywhere.com/contact/submit/", formData, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
+      .post(
+        "https://wahab901278.pythonanywhere.com/contact/submit/",
+        formData,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      )
       .then((response) => {
         alert("Delivered successfully");
         setFormData({
