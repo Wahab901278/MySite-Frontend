@@ -7,7 +7,7 @@ import {
   faTwitter,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
-import "/home/wahab901278/Important-stuff/personal-website/personal-portfolio/src/index.css";
+import "/home/wahab901278/Important-stuff/MySite-Frontend/personal-portfolio/src/index.css";
 
 const SocialMediaIcons = () => {
   return (
