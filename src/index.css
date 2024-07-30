@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +32,7 @@
 }
 
 .home-page {
-  background-image: linear-gradient(90deg, #dccdb8 50%, #ffffff 50%);
+  background-image: linear-gradient(90deg, #1f7a8c 50%, #ffffff 50%);
   height: 110vh;
 }
 
@@ -45,7 +47,7 @@
   display: inline-block;
   width: 10px;
   height: 12px;
-  background-color: blue;
+  background-color: #5eb4c5;
   margin-right: 10px;
 }
 
@@ -65,7 +67,7 @@
 }
 
 #bluetext {
-  color: blue;
+  color: white;
   margin-left: 90px;
 }
 
@@ -94,7 +96,7 @@
 /* footer stylings */
 /*Left inner box*/
 .innerleft {
-  background-color: #efe7da;
+  background-color: #5eb4c5;
   box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2); /* adjust as needed */
 }
 
@@ -111,7 +113,7 @@
 }
 
 .footer1 {
-  border: 1px solid white;
+  border: 1px solid #5eb4c5;
 }
 
 .social-media-icons {
@@ -192,9 +194,9 @@
   margin: 25px;
 }
 .resume {
-  background-color: blue;
+  background-color: #5eb4c5;
   color: white;
-  border: 1px solid blue;
+  border: 1px solid #5eb4c5;
   border-radius: 25px;
   padding: 8px 15px;
   text-align: center;
@@ -224,8 +226,10 @@
   font-weight: 600;
 }
 .projects:hover {
-  background-color: blue;
+  background-color: #5eb4c5;
   color: white;
+
+  border: #5eb4c5;
 }
 .about {
   padding: 8px 15px;

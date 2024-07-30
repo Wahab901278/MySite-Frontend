@@ -5,7 +5,7 @@ import Resume from "../Resume/Resume";
 const Innerright = () => {
   return (
     <div className="innerright">
-      <h1 className="hello">Hello</h1>
+      <h1 className="hello">Hello!</h1>
       <h3 className="description">Here's who I am & what I do</h3>
       <Link to="/resume">
         <button className="resume">RESUME</button>

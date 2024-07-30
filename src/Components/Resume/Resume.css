@@ -1,5 +1,5 @@
 .resume-page {
-  background-color: #dccdb8;
+  background-color: #1f7a8c;
   height: 233vh fixed;
 }
 .resume-h {
@@ -8,13 +8,14 @@
   font-family: "teacher", sans-serif;
   font-weight: 1000;
   font-size: 30px;
+  color: white;
 }
 .resume-h::before {
   content: "";
   display: inline-block;
   width: 14px;
   height: 15px;
-  background-color: blue;
+  background-color: #5eb4c5;
   margin-right: 10px;
 }
 #Experience {
@@ -65,7 +66,7 @@
   display: inline-block;
   padding: 10px 20px;
   color: #fff;
-  background-color: #0400ff;
+  background-color: #5eb4c5;
   border: none;
   border-radius: 20px;
   text-decoration: none;
@@ -76,6 +77,10 @@
   margin-left: 420px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+.download-button:hover {
+  background-color: white;
+  color: black;
 }
 
 .resume-images {
